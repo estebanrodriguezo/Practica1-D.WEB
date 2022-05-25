@@ -8,8 +8,11 @@
   </head>
   <body>
     <ul>
-      <a href="/Inicio.html">Inicio</a>
-      <a href="Registro.html">Registro </a>
+      <a href="/Inicio.html">Inicio </a>
+      <a href="/Registro.html">Registro </a>
+      <a href="/Hombre.html">Hombre </a>
+      <a href="/Mujer.html">Mujer </a>
+      <a href="/Marcas.html">Marcas </a>
     </ul>
     <!-- Lista usada para organizar la pagina y dividirla en secciones  -->
     <center>
@@ -18,21 +21,21 @@
         src="airness bw.jpg"
         width="500"
         height="375"
-        alt="Our new company"
-        title="Icono de nuestra marca"
+        alt="Our new company logo"
+        title="Logo de nuestra marca"
       /><br /><br />
-      <section>
+      <form name="Registro" id="Registro" method="get">
+        <input
+          type="text"
+          name="nickname"
+          id="nickname"
+          placeholder="Ingrese su nickname"
+        /><br /><br />
         <input
           type="text"
           name="name"
           id="name"
-          placeholder="Ingrese su nombre"
-        /><br /><br />
-        <input
-          type="text"
-          name="last name"
-          id="last name"
-          placeholder="Ingrese su apellido"
+          placeholder="Ingrese su nombre completo"
         /><br /><br />
         <input
           type="email"
@@ -46,9 +49,36 @@
           id="password"
           placeholder="Ingrese su contraseña"
         /><br /><br />
-        <input type="submit" value="Registrar" /><br />
+        <input
+          type="tel"
+          name="tel"
+          id="tel"
+          placeholder="Ingrese su numero de celular"
+        /><br /><br />
+        <input
+          type="text"
+          name="adress"
+          id="adress"
+          placeholder="Ingrese su direccion"
+        /><br /><br />
+        <label for="birthdate">Fecha de nacimiento :</label>
+        <input
+          type="date"
+          name="brithdate"
+          id="brithdate"
+          placeholder="Ingrese su fecha de nacimiento"
+        /><br /><br />
+        <input
+          type="number"
+          name="age"
+          id="age"
+          placeholder="Ingrese su edad"
+        /><br /><br />
+        <input type="submit" value="Registrar" />
+        <input type="reset" value="Resetear" /><br />
+
         <p><a href="/Inicio.html"> Ya tengo cuenta </a></p>
-      </section>
+      </form>
     </center>
   </body>
 </html>
