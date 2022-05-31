@@ -7,29 +7,67 @@
     <title>AIRNESS198</title>
   </head>
   <body>
-    <ul>
-      <a href="/Inicio.html">Inicio</a>
-      <a href="/Registro.html">Registro </a>
-      <a href="/Hombre.html">Hombre </a>
-      <a href="/Mujer.html">Mujer </a>
-      <a href="/Marcas.html">Marcas </a>
-    </ul>
-    <!-- Lista usada para organizar la pagina y dividirla en secciones  -->
+    <header>
+      <ul>
+        <a href="/Inicio.html">Inicio</a>
+        <a href="/Registro.html">Registro </a>
+        <a href="/Hombre.html">Hombre </a>
+        <a href="/Mujer.html">Mujer </a>
+        <a href="/Marcas.html">Marcas </a>
+      </ul>
+      <!-- Lista usada para organizar la pagina y dividirla en secciones  -->
 
-    <center><h1>AIRNESS198</h1></center>
-    <!-- Titulo -->
+      <center><h1>AIRNESS198</h1></center>
+      <!-- Titulo -->
 
-    <center>
-      <img
+      <audio controls autoplay hidden id="Yo visto asi">
+        <source src="/Audios/YO VISTO ASI.mp3" type="audio/mpeg" />
+      </audio>
+      <script>
+        var audio = document.getElementById("Yo visto asi");
+        audio.volume = 0.07;
+      </script>
+
+      <center>
+        <img
           src="/Imagenes/airness.jpg"
           width="500"
           height="375"
           alt="Our new company logo"
-          title="Logo de nuestra marca"
-      />
+          title="Logo de nuestra pagina"
+        />
+      </center>
+      <br />
+      <!-- Logo de la pagina -->
+    </header>
+
+    <center>
+      <h2>Nuestras Secciones</h2>
+      <a href="/Mujer.html">
+        <img
+          width="480"
+          height="783"
+          src="/Imagenes/Mujer/STW WOMAN.jpg"
+          alt="Streetwear mujeres"
+          title="Seccion de mujeres"
+      /></a>
+      <a href="/Hombre.html">
+        <img
+          width="480"
+          height="783"
+          src="/Imagenes/Hombre/STW MAN.jpg"
+          alt="Streetwear Hombres"
+          title="Seccion de Hombres"
+      /></a>
+      <a href="/Marcas.html">
+        <img
+          width="480"
+          height="783"
+          src="/Imagenes/STW BRANDS.jpg"
+          alt="Streetwear Brands"
+          title="Nuestras Marcas"
+      /></a>
     </center>
-    <br />
-    <!-- Logo de la pagina -->
 
     <p>
       Somos el destino indiscutible de los amantes de productos de moda urbana,
@@ -38,10 +76,28 @@
       Tienda virtual<br />
       Streetwear and sneakers<br />
       Envios a todo el pais<br />
-      Instagram: <a href="https://www.instagram.com/airness198/"> Airness198 </a
-      ><br />
-      Medellin, Antioquia<br />
+      Medellin, Antioquia<br /><!-- Descripcion de la pagina -->
+
+      Contactanos en:<br />
+      <a href="https://www.instagram.com/airness198/">
+        <img
+          src="/Imagenes/R.Sociales/INSTAGRAM.jpg"
+          width="100"
+          height="100"
+          alt="Intagram"
+          title="Intagram de nuestra pagina"
+      /></a>
+      <a href="https://wa.me/+573182123272">
+        <img
+          src="/Imagenes/R.Sociales/WPP.jpg"
+          width="93"
+          height="93"
+          alt="Whatsapp"
+          title="Contacto de nuestra pagina"
+      /></a>
+      <!-- Contacto y redes sciales de nuestra pagina -->
+
+      <br />
     </p>
-    <!-- Descripcion de la pagina -->
   </body>
 </html>
